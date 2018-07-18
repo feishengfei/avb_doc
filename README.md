@@ -50,9 +50,56 @@ Time-Sensitive Networking Task Group(Nov, 2012)
 synchronizing multiple streams to ensure they can be rendered correctly in time.
 lip synch.
 stringent applications: with 1us;
-Applications must be able to reserve network resources, sometimes called admission control.[
+Applications must be able to reserve network resources, sometimes called admission control.
 
-##Protocol
+##Automobile Glossary
+
+###ADAS(Advanced driver-assistance systems)
+
+![composition](https://github.com/feishengfei/avb_doc/raw/master/images/adas01.jpg)
+
+![coverage](https://github.com/feishengfei/avb_doc/raw/master/images/adas02.png)
+
+![coverage](https://github.com/feishengfei/avb_doc/raw/master/images/adas03.jpg)
+
+![history/now/future](https://github.com/feishengfei/avb_doc/raw/master/images/adas_history_now_future.png)
+
+![adas network](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/adas_require_network.png)
+
+![MATEnet for Automotive Ethernet](https://github.com/feishengfei/avb_doc/raw/master/images/aut_MATEnet_Apps_Infographic_1024px.jpg)
+
+![car avb structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_avb_structure.png)
+
+![car most structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_most_structure.png)
+
+###MOST
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most00.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most01.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most02.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most03.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most04.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most05.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most06.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most07.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most08.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most09.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most10.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most11.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most12.png)
+
 
 ##AVB Glossary
 
