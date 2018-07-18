@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="IEEE 1722.1 (AVDECC) Protocol Features">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IEEE 1722.1 Protocol Features | AVB/TSN</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="../../assets/css/html4css1.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://avb.statusbar.com/article/1722.1-features/">
+<link rel="icon" href="../../favicon.ico" sizes="16x16">
+<link rel="icon" href="../../icon_128x128.png" sizes="128x128">
+<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><meta name="author" content="Jeff Koftinoff">
+<link rel="prev" href="../getting-started/" title="Getting Started" type="text/html">
+<link rel="next" href="../../page/tools/AVB-Bandwidth-Calculator-for-Numbers-V2.4/" title="AVB Bandwidth Calculator for Numbers V2.4" type="text/html">
+<meta property="og:site_name" content="AVB/TSN">
+<meta property="og:title" content="IEEE 1722.1 Protocol Features">
+<meta property="og:url" content="https://avb.statusbar.com/article/1722.1-features/">
+<meta property="og:description" content="IEEE 1722.1 (AVDECC) Protocol Features">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2013-07-28T15:07:51-07:00">
+<meta property="article:tag" content="1722.1">
+<meta property="article:tag" content="AVDECC">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://avb.statusbar.com/">
+
+                <span id="blog-title">AVB/TSN</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../index.html">Home</a>
+                </li>
+<li>
+<a href="../../news.html">News</a>
+                </li>
+<li>
+<a href="../../faq.html">FAQ</a>
+                </li>
+<li>
+<a href="../../presentations.html">Presentations</a>
+                </li>
+<li>
+<a href="../../tags/">Tags</a>
+                </li>
+<li>
+<a href="../../archive.html">Archives</a>
+
+                
+            </li>
+</ul>
+<!-- Custom search --><form method="get" id="search" action="https://duckduckgo.com/" class="navbar-form pull-right">
+<input type="hidden" name="sites" value="https://avb.statusbar.com/"><input type="hidden" name="k8" value="#444444"><input type="hidden" name="k9" value="#D51920"><input type="hidden" name="kt" value="h"><input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;"><input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.txt" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">IEEE 1722.1 Protocol Features</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<div class="section" id="overview">
+<h2>Overview</h2>
+<p>IEEE 1722.1 provides the Audio Video Discovery, Enumeration, Connection management, and Control (AVDECC) protocol for AVB devices.</p>
+</div>
+<div class="section" id="discovery">
+<h2>Discovery</h2>
+<ul class="simple">
+<li>Advertising</li>
+<li>Querying (Global and Specific)</li>
+<li>Support for redundant networks</li>
+</ul>
+</div>
+<div class="section" id="enumeration-and-control">
+<h2>Enumeration and Control</h2>
+<ul class="simple">
+<li>Describe the internal structure of the device from the stream entry/exit through to the "physical" entry/exit</li>
+<li>Describe the internal structure within the different limitations of the device (channel limits at different sample rates, etc)</li>
+<li>Describe the internal latency through the device from the defined timing reference plane to the "physical" world (or the define latency from reference plane to reference plane via the DSP)</li>
+<li>Describes and controls the clocking model within the device to configure media clocking sources, sample rate converters, etc.</li>
+<li>Describe the AVB capabilities of the interfaces and provide the current AVB related information (802.1AS GMID, MSRP domain) for each AVB interface</li>
+<li>Describe and control the mapping of media sources and sinks to channels within the stream sinks and sources</li>
+<li>Describe and control the signal chains (DSP, mute, volume, mixers, selectors, etc) through the device</li>
+<li>Provide user settable names for many objects within the device including stream, media sources and sinks (jacks), controls, etc</li>
+<li>Describe and control generic control points within the device (location information, enables, video camera controls, etc)</li>
+<li>Perform key management for securing the network</li>
+<li>Perform basic authentication of controllers</li>
+<li>Enable and disable transport and stream security</li>
+<li>Distributes updates to interested controllers</li>
+<li>Provides diagnostic information such as avb interface event counters and errors, stream packet event counters and errors, and clock domain lock status, as well as vendor specific counters when necessary.</li>
+<li>Transport AVC protocol, HDCP IIA key exchange protocol, and vendor specific protocols.</li>
+</ul>
+</div>
+<div class="section" id="connection-management">
+<h2>Connection Management</h2>
+<ul class="simple">
+<li>Connection/disconnection of streams</li>
+<li>Persistent connections</li>
+<li>Status query for both AVDECC Listeners and AVDECC Talkers</li>
+<li>Transport of relevant SRP data</li>
+</ul>
+</div>
+</div>
+    </div>
+        <section class="comments"><h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="avb-statusbar",
+            disqus_url="https://avb.statusbar.com/article/1722.1-features/",
+        disqus_title="IEEE 1722.1 Protocol Features",
+        disqus_identifier="cache/article/1722.1-features.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer"><hr>
+<br>Contents © 2017 <a href="mailto:jeff.koftinoff@statusbar.com">Jeff Koftinoff</a> Powered by         <a href="http://nikola.ralsina.com.ar">Nikola</a> — Source code for this website available at <a href="https://github.com/jdkoftinoff/avb.statusbar.com">https://github.com/jdkoftinoff/avb.statusbar.com</a>
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script src="../../assets/js/jquery.colorbox-min.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52398310-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
