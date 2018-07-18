@@ -258,6 +258,8 @@ Example:
 |SDI|Serial digital interface (SDI)|a family of digital **video** interfaces first standardized by SMPTE (The Society of Motion Picture and Television Engineers) in 1989.<br>![SDI](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/BNC_connector_%28male%29.jpg/330px-BNC_connector_%28male%29.jpg)|
 |ADAS|Advanced driver-assistance systems||
 |MOST|Media Oriented System Transport||
+|[LIN](https://en.wikipedia.org/wiki/Local_Interconnect_Network)|(Local Interconnect Network) a very low cost in-vehicle sub-network||
+|[FlexRay](https://en.wikipedia.org/wiki/FlexRay)|a general purpose high-speed protocol with safety-critical features|FlexRay is an [automotive network communications protocol](https://en.wikipedia.org/wiki/Vehicle_bus) developed by the FlexRay Consortium to govern on-board automotive computing. It is designed to be faster and more reliable than [CAN](https://en.wikipedia.org/wiki/Controller_Area_Network) and [TTP](https://en.wikipedia.org/wiki/Time-Triggered_Protocol), but it is also more expensive. The FlexRay consortium disbanded in 2009, but the FlexRay standard is now a set of ISO standards, ISO [17458-1](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=59804) to [17458-5](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=59809). |
 |[IVI](https://baike.baidu.com/item/ivi/1069515)|In-Vehicle Infotainment|IVI能够实现包括三维导航、实时路况、IPTV、辅助驾驶、故障检测、车辆信息、车身控制、移动办公、无线通讯、基于在线的娱乐功能及TSP服务等一系列应用，极大的提升的车辆电子化、网络化和智能化水平。|
 |ICE|In-Car entertainment|同上|
 |RSES|Rear Seat Entertainment System|同上|
