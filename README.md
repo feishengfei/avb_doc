@@ -13,7 +13,7 @@
 |IEEE 802.1AS-2011|Timing and Synchronization for Time-Sensitive Applications in Bridged Local Area Networks|Timing and Synchronization for Time-Sensitive Applications (gPTP)<br>Precise synchronization<br>[802.1AS](http://www.ieee802.org/1/pages/802.1as.html)<br>[802.1AS-Rev](http://www.ieee802.org/1/pages/802.1AS-rev.html)|
 |IEEE 1722-2011|Layer 2 Transport Protocol for Time Sensitive Applications in a Bridged Local Area Network|[IEEE 1722-2011](http://standards.ieee.org/findstds/standard/1722-2011.html)|
 |IEEE 1733-2011|Layer 3 Transport Protocol for Time Sensitive Applications in Local Area Networks|[IEEE 1733-2011](http://standards.ieee.org/findstds/standard/1733-2011.html)|
-|IEEE 1722.1-2013|Device Discovery, Enumeration, Connection Management and Control Protocol for 1722-Based Devices|[IEEE 1722.1-2013](http://standards.ieee.org/findstds/standard/1722.1-2013.html)|
+|IEEE 1722.1-2013|Device Discovery, Enumeration, Connection Management and Control Protocol for 1722-Based Devices|[IEEE 1722.1-2013](http://standards.ieee.org/findstds/standard/1722.1-2013.html)<br> AVDECC(AVB Device Enumeration, Discovery and Control) |
 
 URL(some require auth)
 [AVB/TSN](https://avb.statusbar.com/page/)
@@ -72,7 +72,7 @@ Applications must be able to reserve network resources, sometimes called admissi
 
 ![car most structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_most_structure.png)
 
-###MOST
+###MOST(Media Oriented System Transport)
 
 ![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most00.png)
 
@@ -102,6 +102,13 @@ Applications must be able to reserve network resources, sometimes called admissi
 
 
 ##AVB Glossary
+
+* AVB := 802.1Qat + 802.1Qav + 802.1AS
+* 802.1Qat := MMRP + MVRP + MSRP = “Stream Reservation” SRP(Stream Reservation Protocol)
+* 802.1Qav := “Hardware-based traffic shapers” (Traffic shaping for AV streams)
+• 802.1AS := “Time Synchronization”	(gPTP)
+* L2-based IEEE 1722, 1722.1
+* L3-based IEEE 1733 & RTP
 
 ###Audio Channel
 
@@ -293,6 +300,15 @@ An ingress point of an AVB Stream into an Audio Unit
 Example:
 
 * The Stream Input receives the AVB stream and sends it to the appropriate Audio Unit for processing within a Clock Domain via a Stream Port Input.
+
+##Dependency
+
+* libpcap-dev
+* libpci-dev
+* cmake
+* ninja
+* asciidoc
+* byobu
 
 ##Terminology
 
