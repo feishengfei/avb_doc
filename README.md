@@ -94,55 +94,6 @@ lip synch.
 stringent applications: with 1us;
 Applications must be able to reserve network resources, sometimes called admission control.
 
-##Automobile Glossary
-
-###ADAS(Advanced driver-assistance systems)
-
-![composition](https://github.com/feishengfei/avb_doc/raw/master/images/adas01.jpg)
-
-![coverage](https://github.com/feishengfei/avb_doc/raw/master/images/adas02.png)
-
-![coverage](https://github.com/feishengfei/avb_doc/raw/master/images/adas03.jpg)
-
-![history/now/future](https://github.com/feishengfei/avb_doc/raw/master/images/adas_history_now_future.png)
-
-![adas network](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/adas_require_network.png)
-
-![MATEnet for Automotive Ethernet](https://github.com/feishengfei/avb_doc/raw/master/images/aut_MATEnet_Apps_Infographic_1024px.jpg)
-
-![car avb structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_avb_structure.png)
-
-![car most structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_most_structure.png)
-
-###MOST(Media Oriented System Transport)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most00.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most01.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most02.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most03.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most04.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most05.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most06.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most07.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most08.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most09.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most10.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most11.png)
-
-![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most12.png)
-
-
 ##AVB Glossary
 
 * AVB := 802.1Qat + 802.1Qav + 802.1AS
@@ -212,3 +163,52 @@ Applications must be able to reserve network resources, sometimes called admissi
 |HUD|Head Up Display||
 |AAA2C|Avnu Automotive Advisory Council ||
 |[AVTP]((http://avnu.org/wp-content/uploads/2014/05/AVnu-AAA2C_Audio-Video-Transport-Protocol-AVTP_Dave-Olsen.pdf))|Audio Video Transport Protocol||
+
+##Automobile Glossary
+
+###ADAS(Advanced driver-assistance systems)
+
+![composition](https://github.com/feishengfei/avb_doc/raw/master/images/adas01.jpg)
+
+![coverage](https://github.com/feishengfei/avb_doc/raw/master/images/adas02.png)
+
+![coverage](https://github.com/feishengfei/avb_doc/raw/master/images/adas03.jpg)
+
+![history/now/future](https://github.com/feishengfei/avb_doc/raw/master/images/adas_history_now_future.png)
+
+![adas network](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/adas_require_network.png)
+
+![MATEnet for Automotive Ethernet](https://github.com/feishengfei/avb_doc/raw/master/images/aut_MATEnet_Apps_Infographic_1024px.jpg)
+
+![car avb structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_avb_structure.png)
+
+![car most structure](https://github.com/feishengfei/avb_doc/raw/master/images/car_most_structure.png)
+
+###MOST(Media Oriented System Transport)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most00.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most01.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most02.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most03.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most04.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most05.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most06.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most07.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most08.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most09.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most10.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most11.png)
+
+![most](https://raw.githubusercontent.com/feishengfei/avb_doc/master/images/most12.png)
+
